@@ -122,6 +122,6 @@ resource "aws_instance" "test_instance" {
   
   }
   tags = {
-    Name = each.key
+    Name = var.env
   }
 }
