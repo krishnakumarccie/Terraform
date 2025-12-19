@@ -29,3 +29,8 @@ variable "ec2_instance_image" {
   default = "ami-019dad73e93fe94c2"
   type    = string
 }
+
+variable env {
+  default = "Test"
+  type    = string
+}
